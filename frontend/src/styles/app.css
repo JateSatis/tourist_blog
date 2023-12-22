@@ -1,0 +1,57 @@
+@import url(./fonts.css);
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./placeElement.css);
+@import url(./fiveStarRating.css);
+@import url(./find.css);
+@import url(./edit.css);
+@import url(./create.css);
+@import url(./page.css);
+
+html[data-theme="light"] {
+  --background-main: #f5fbfb;
+  --background-secondary: #c0e8e8;
+  --text-main: #314a52;
+  --text-secondary: #5c7d81;
+  --accent-green: #4daf9b;
+  --accent-blue: #4492b3;
+}
+
+html[data-theme="dark"] {
+  --background-main: #234e52;
+  --background-secondary: #1a3e41;
+  --text-main: #eaf4f4;
+  --text-secondary: #adc3c8;
+  --accent-green: #4daf9b;
+  --accent-blue: #2b6a8f;
+}
+
+body {
+  background-color: var(--background-main);
+  color: var(--text-main);
+  font-family: PlayFair;
+  font-weight: 500;
+}
+
+input {
+  font-family: PlayFair;
+}
+
+button {
+  font-family: PlayFair;
+  padding: 0;
+}
+
+a {
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--accent-blue);
+}
+
+a:hover {
+  color: var(--accent-blue);
+}

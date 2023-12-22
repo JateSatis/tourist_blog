@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2vw;
+}
+
+.main_heading {
+  margin-top: 10vh;
+  font-size: 4em;
+}
+
+.main_secondary-heading {
+  align-self: flex-end;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: 2em;
+  text-align: right;
+  font-weight: normal;
+  width: 60%;
+}
+
+.main_places-heading {
+  font-size: 1.5em;
+}
+
+.main_places-container {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .main_heading {
+    font-size: 3em;
+  }
+
+  .main_secondary-heading {
+    font-size: 1.5em;
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .main_heading {
+    font-size: 2em;
+  }
+
+  .main_places-heading {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,60 @@
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  padding: 10vh 0;
+  box-sizing: border-box;
+}
+
+.form-text-input {
+  border: 1px solid var(--text-secondary);
+  border-radius: 4px;
+  background: var(--background-secondary);
+  color: var(--text-main);
+  width: 30vw;
+  box-sizing: border-box;
+  padding: 0.3em 1em;
+  font-size: 1.2em;
+}
+
+.form-text-input:hover {
+  -webkit-box-shadow: 0px 0px 3px 0px var(--text-secondary);
+  -moz-box-shadow: 0px 0px 3px 0px var(--text-secondary);
+  box-shadow: 0px 0px 3px 0px var(--text-secondary);
+}
+
+.form-button {
+  box-sizing: border-box;
+  padding: 0.3em 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background: var(--accent-green);
+  color: var(--text-secondary);
+  color: var(--text-main);
+  width: 30vw;
+  font-size: 1.2em;
+	text-align: center;
+}
+
+.form-button:hover {
+  -webkit-box-shadow: 0px 0px 3px 0px var(--text-secondary);
+  -moz-box-shadow: 0px 0px 3px 0px var(--text-secondary);
+  box-shadow: 0px 0px 3px 0px var(--text-secondary);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .form-text-input {
+    width: 80vw;
+  }
+
+  .form-button {
+    width: 80vw;
+  }
+}
